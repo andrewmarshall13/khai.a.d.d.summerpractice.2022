@@ -12,7 +12,7 @@ int main(void)
 
     inputMatrix(inputFile, lines, columns, matrix);
     outputMatrix(lines, columns, matrix);
-
+    
     fclose(inputFile);
     return(0);
 }
